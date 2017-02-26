@@ -1,0 +1,28 @@
+{
+  "name": "todomvc",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "webpack && cp -fv ./node_modules/todomvc-app-css/index.css public/",
+    "clean": "rm -fv public/index.{js,css}",
+    "start": "webpack-dev-server --content-base public/"
+  },
+  "devDependencies": {
+    "@types/classnames": "0.0.32",
+    "@types/react-dom": "0.14.23",
+    "@types/react-redux": "4.4.36",
+    "classnames": "2.2.5",
+    "css-loader": "^0.26.1",
+    "react": "15.4.2",
+    "react-dom": "15.4.2",
+    "react-redux": "4.4.6",
+    "redux": "3.6.0",
+    "style-loader": "0.13.1",
+    "todomvc-app-css": "2.0.6",
+    "ts-loader": "2.0.0",
+    "typescript": "2.1.6",
+    "webpack": "1.14.0",
+    "webpack-dev-server": "1.16.3"
+  },
+  "dependencies": {}
+}
